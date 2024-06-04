@@ -9,16 +9,16 @@ const BottomNavBar: React.FC<BottomNavBarProps> = ({ onNavigate }) => {
   return (
     <View style={styles.navBar}>
       <Pressable onPress={() => onNavigate('home')}>
-        <Image source={require('../img/home.png')} style={styles.icon} />
+        <Image source={require('../img/home.jpg')} style={styles.icon} />
       </Pressable>
       <Pressable onPress={() => onNavigate('catalog')}>
-        <Image source={require('../img/catalog.png')} style={styles.icon} />
+        <Image source={require('../img/catalog.jpg')} style={styles.icon} />
       </Pressable>
       <Pressable onPress={() => onNavigate('advisors')}>
-        <Image source={require('../img/advisors.png')} style={styles.icon} />
+        <Image source={require('../img/advisors.jpg')} style={styles.icon} />
       </Pressable>
       <Pressable onPress={() => onNavigate('profile')}>
-        <Image source={require('../img/profile.png')} style={styles.icon} />
+        <Image source={require('../img/profile.jpg')} style={styles.icon} />
       </Pressable>
     </View>
   );

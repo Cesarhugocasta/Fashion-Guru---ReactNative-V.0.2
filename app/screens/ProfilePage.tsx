@@ -6,7 +6,7 @@ const ProfilePage: React.FC = () => {
     <ImageBackground source={require('../img/background.jpg')} style={styles.background}>
       <View style={styles.container}>
         <Text style={styles.title}>Perfil</Text>
-        <Image source={require('../img/profile.jpg')} style={styles.profileImage} />
+        <Image source={require('../img/perfil.jpg')} style={styles.profileImage} />
         <Text style={styles.name}>Juan Pérez</Text>
         <Text style={styles.info}>Correo: juan.perez@example.com</Text>
         <Text style={styles.info}>Teléfono: +52 123 456 7890</Text>

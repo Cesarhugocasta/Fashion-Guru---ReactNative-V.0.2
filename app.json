@@ -1,4 +1,11 @@
 {
   "name": "FashionGuru",
-  "displayName": "FashionGuru"
+  "displayName": "FashionGuru",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "37fe821c-4070-475e-ac83-4754c5d89605"
+      }
+    }
+  }
 }
