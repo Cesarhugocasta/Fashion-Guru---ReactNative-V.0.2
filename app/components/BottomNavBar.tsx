@@ -8,14 +8,17 @@ interface BottomNavBarProps {
 const BottomNavBar: React.FC<BottomNavBarProps> = ({ onNavigate }) => {
   return (
     <View style={styles.navBar}>
-      <Pressable onPress={() => onNavigate('home')}>
-        <Image source={require('../img/home.jpg')} style={styles.icon} />
-      </Pressable>
-      <Pressable onPress={() => onNavigate('catalog')}>
+      <Pressable onPress={() => onNavigate('community')}>
         <Image source={require('../img/catalog.jpg')} style={styles.icon} />
+      </Pressable>
+      <Pressable onPress={() => onNavigate('chatList')}>
+        <Image source={require('../img/chat.jpg')} style={styles.icon} />
       </Pressable>
       <Pressable onPress={() => onNavigate('advisors')}>
         <Image source={require('../img/advisors.jpg')} style={styles.icon} />
+      </Pressable>
+      <Pressable onPress={() => onNavigate('fashionGuide')}>
+        <Image source={require('../img/fashionGuide.jpg')} style={styles.icon} />
       </Pressable>
       <Pressable onPress={() => onNavigate('profile')}>
         <Image source={require('../img/profile.jpg')} style={styles.icon} />
